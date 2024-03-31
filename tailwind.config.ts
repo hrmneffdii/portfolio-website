@@ -64,6 +64,11 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+        shake: "shake 0.5s ease-in-out",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -73,10 +78,13 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        shake: {
+          "0%, 100%": { transform: "translateX(0)" },
+
+          "10%, 30%, 50%, 70%": { transform: "translateX(-10px)" },
+
+          "20%, 40%, 60%": { transform: "translateX(10px)" },
+        },
       },
     },
   },

@@ -1,3 +1,7 @@
 export default function Resume() {
-  return <div>ini Resume</div>;
+  return (
+    <iframe src="./cv.pdf" width="100%" height="1000px">
+      herman
+    </iframe>
+  );
 }
