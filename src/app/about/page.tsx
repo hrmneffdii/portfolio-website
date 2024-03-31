@@ -14,7 +14,7 @@ export default function Projects() {
       <div
         className={`px-6 sm:px-16  flex flex-col md:grid md:grid-cols-3 items-center space-y-8 mb-20 `}
       >
-        <div className="md:col-span-2 space-y-6 md:mr-12">
+        <div className="md:col-span-2 space-y-6 md:mr-12 text-lg">
           <h1 className="text-4xl">Hello again 👋 !!</h1>
           <div>
             {`I'm Herman Effendi, and my friends call me Herman. I am a software
@@ -38,8 +38,8 @@ export default function Projects() {
         <div className="md:col-span-1 flex place-items-start justify-center">
           <Image
             src="/herman.png"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             alt="herman"
             className="brightness-105 dark:brightness-90 "
           />

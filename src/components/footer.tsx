@@ -9,7 +9,8 @@ export function Footer() {
       <div className="text-4xl space-y-2">
         <h1>Like what you see ??</h1>
         <h1>
-          View my <span className="text-blue-500">resume</span>, Get in touch{" "}
+          View my <span className="text-blue-500">resume</span>, Get in touch
+          for <span className="text-blue-500">Collaboration</span>.
         </h1>
       </div>
       <div className="flex items-center gap-2 py-6">

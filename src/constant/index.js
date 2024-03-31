@@ -30,9 +30,10 @@ const selectedProjects = [
     title: "Next.js Dashboard",
     href: "/dashboard.png",
     descriptions: [
-      "Effortlessly sign up and slog out with an intuitive session concept.",
-      "Navigate effortlessly through Next and Prev buttons to discover more random film lists.",
-      "Receive personalized recommendations from the system for similar films.",
+      "Creating a dashboard with a user-friendly interface.",
+      "User aunthentication and authorization.",
+      "Implementing partial rendering for faster loading.",
+      "Using debounce for better performance and responsiveness.",
     ],
     link: "https://github.com/hrmneffdii/nextjs-dashboard",
     stacks: ["nextjs", "tailwind", "vercel", "typescript"],
