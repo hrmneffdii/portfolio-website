@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply transition-colors duration-300 ease-linear;
+  @apply transition-colors duration-100 ease-linear;
 }
 @layer base {
   :root {
