@@ -22,9 +22,11 @@ export default function Home() {
           {`I'm`}
           <span className="text-blue-600 dark:text-blue-500"> Herman</span>
         </span>
-        , a Software engginer who tries to expertise in{" "}
-        <span className="text-blue-600 dark:text-blue-500">backend system</span>
-        .
+        , Someone who is intrigued by the potential of{" "}
+        <span className="text-blue-600 dark:text-blue-500">
+          smart contract{" "}
+        </span>
+        in blockchain technology.
       </div>
       <div
         className="absolute bottom-12 right-1/2 cursor-pointer"
