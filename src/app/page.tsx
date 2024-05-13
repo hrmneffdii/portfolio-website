@@ -17,13 +17,17 @@ export default function Home() {
       <div
         className={`px-6 sm:px-16 min-h-screen text-4xl leading-normal pt-8 sm:text-[40px] sm:pt-12 md:text-5xl md:leading-normal md:pt-14  ${inter.className} `}
       >
-        <span className="">Hello there 👋</span> ,<br></br>
+        <span className="underline decoration-blue-500">Hello there</span> 👋{" "}
+        <br />
         <span>
           {`I'm`}
-          <span className="text-blue-600 dark:text-blue-500"> Herman</span>
+          <span className="text-blue-600 dark:text-blue-500 font-bold">
+            {" "}
+            Herman{" "}
+          </span>
         </span>
-        , Someone who is intrigued by the potential of{" "}
-        <span className="text-blue-600 dark:text-blue-500">
+        Someone who is intrigued by the potential of{" "}
+        <span className="text-blue-600 dark:text-blue-500 font-bold">
           smart contract{" "}
         </span>
         in blockchain technology.
