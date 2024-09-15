@@ -16,7 +16,7 @@ export default function Resume() {
       <RocketIcon className="h-4 w-4" />
       <AlertTitle>Heads up!</AlertTitle>
       <AlertDescription>
-        For more details, let's visit my github <a href={`${githubUrl}`} target="_blank" className="text-blue-500 underline">profile.</a>
+        For more details,{`let's`} visit my github <a href={`${githubUrl}`} target="_blank" className="text-blue-500 underline">profile.</a>
       </AlertDescription>
     </Alert>
   );
