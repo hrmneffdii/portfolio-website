@@ -3,7 +3,6 @@ import { Montserrat } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import { Metadata } from "next";
-import { Footer } from "@/components/footer";
 
 const poppins = Montserrat({
   weight: ["400", "700"],
